@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 1106
+  Height = 515
+  Top = 119
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 515
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 56
+    Height = 25
+    Top = 320
+    Width = 88
+    Caption = 'Pridat tovar'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 56
+    Height = 25
+    Top = 376
+    Width = 91
+    Caption = 'Odstranit tovar'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Height = 272
+    Top = 32
+    Width = 88
+    ItemHeight = 0
+    OnMouseDown = ListBox1MouseDown
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 8
+    Width = 26
+    Caption = 'kody'
+    ParentColor = False
+  end
+  object ListBox2: TListBox
+    Left = 112
+    Height = 272
+    Top = 32
+    Width = 100
+    ItemHeight = 0
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    Left = 121
+    Height = 15
+    Top = 8
+    Width = 73
+    Caption = 'kod s nazvom'
+    ParentColor = False
+  end
+  object Button3: TButton
+    Left = 56
+    Height = 25
+    Top = 432
+    Width = 88
+    Caption = 'editovat'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Timer1: TTimer
+    Interval = 3600000
+    left = 8
+    top = 448
+  end
+end
