@@ -1,26 +1,26 @@
 object Form1: TForm1
-  Left = 1106
-  Height = 515
-  Top = 119
-  Width = 320
+  Left = 803
+  Height = 341
+  Top = 125
+  Width = 571
   Caption = 'Form1'
-  ClientHeight = 515
-  ClientWidth = 320
+  ClientHeight = 341
+  ClientWidth = 571
   OnCreate = FormCreate
   LCLVersion = '1.4.0.4'
   object Button1: TButton
-    Left = 56
+    Left = 368
     Height = 25
-    Top = 320
+    Top = 32
     Width = 88
     Caption = 'Pridat tovar'
     OnClick = Button1Click
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 56
+    Left = 368
     Height = 25
-    Top = 376
+    Top = 80
     Width = 91
     Caption = 'Odstranit tovar'
     OnClick = Button2Click
@@ -47,7 +47,7 @@ object Form1: TForm1
     Left = 112
     Height = 272
     Top = 32
-    Width = 100
+    Width = 204
     ItemHeight = 0
     TabOrder = 3
   end
@@ -60,17 +60,17 @@ object Form1: TForm1
     ParentColor = False
   end
   object Button3: TButton
-    Left = 56
+    Left = 368
     Height = 25
-    Top = 432
+    Top = 128
     Width = 88
     Caption = 'editovat'
     OnClick = Button3Click
     TabOrder = 4
   end
   object Timer1: TTimer
-    Interval = 3600000
-    left = 8
-    top = 448
+    Interval = 100
+    left = 368
+    top = 192
   end
 end
